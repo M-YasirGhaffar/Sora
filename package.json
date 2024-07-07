@@ -24,7 +24,7 @@
   "dependencies": {
     "@consumet/extensions": "github:consumet/consumet.ts",
     "@fontsource/sora": "^5.0.14",
-    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@lottiefiles/react-lottie-player": "^3.5.4",
     "@nasa-gcn/remix-seo": "^2.0.0",
     "@next-boost/hybrid-disk-cache": "^0.3.0",
     "@nextui-org/accordion": "^2.0.23",
@@ -166,6 +166,9 @@
     "remix-pwa": "^3.0.19",
     "rimraf": "^5.0.5",
     "typescript": "^5.2.2"
+  },
+  "resolutions": {
+    "better-sqlite3": "^11.1.2"
   },
   "lint-staged": {
     "*.{tsx,ts,jsx,js,json,css,md}": "pnpm run prettier",
