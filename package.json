@@ -14,7 +14,7 @@
     "format-code": "pnpm run prettier:fix & pnpm run lint:fix",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "lint:fix": "pnpm run lint --fix",
-    "prebuild": "pnpm cleanup",
+    "prebuild": "pnpm clean",
     "prepare": "husky install",
     "prettier": "prettier app --check",
     "prettier:fix": "prettier app --write",
@@ -175,7 +175,7 @@
     "*.{tsx,ts,jsx,js}": "pnpm run lint"
   },
   "engines": {
-    "node": ">=18"
+    "node": "18.20.3"
   },
   "pnpm": {
     "peerDependencyRules": {

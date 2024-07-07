@@ -3,8 +3,5 @@
     "env": {
       "ENABLE_FILE_SYSTEM_API": "1"
     }
-  },
-  "engines": {
-    "node": "18.20.3"
   }
 }
